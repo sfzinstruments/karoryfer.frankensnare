@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<Key>BBB5DD52920AEB0C71A24FC9D2ED4A9E8114A241752FD2DACC5D0E6946A96654177622F987980C3C81CC7FB5F3BC3DCCF7B3081CD3C1DBBD5EBD931FCF0F508E63EC0AFE26C97B2E4F3DDFF6695D0A1BAF771848C7A9B100CE9F078AD83B95EEB8BA42E273FF01A5B53ABD4464BB5C04D71EE1F71DF8F19CC77B35C8351599C37CE87A6CAC14CB8E6C7C3792585579015162860B4031D16A1AE0A016B377FF8297EE0CA81900D6BFAF75E5BC3FAB1CACBBC6BA5A0D76F84B4F35762CA6E610E4B9C820C814EFBEE46921245AF90AFE545195FF9376511DED15C0169B35D59DE04B88B514E0C517E2C2C1C3932B333ECDBD161452FCCB024D1C199ED54086E049</Key>
+<AriaBank id="2522" name="Frankensnare" vendor="Karoryfer" product="Frankensnare" version="2000" >
+
+	<Define name="$sample_dir" value="../Samples"/>
+	
+	<!-- branding for Aria Player and sforzando UIs -->
+	<AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />	
+ 
+	<AriaProgram  name="01-Frankensnare"                gui="GUI/01-frankensnare.xml">      <AriaElement  path="Programs/01-frankensnare.sfz"/>   </AriaProgram>
+	
+	<AriaProgram  name="02-10x6 ash snare brushed"      gui="GUI/02-10x6ashbrush.xml"> 		<AriaElement  path="Programs/02-10x6ashbrush.sfz"/>   </AriaProgram>
+		
+	<AriaProgram  name="03-10x6 ash snare"     		    gui="GUI/03-10x6ash.xml" >          <AriaElement  path="Programs/03-10x6ash.sfz"/>		  </AriaProgram>
+		
+	<AriaProgram  name="04-12x5 steel snare"     	    gui="GUI/04-12x5steel.xml" >        <AriaElement  path="Programs/04-12x5steel.sfz"/>	  </AriaProgram>
+		
+	<AriaProgram  name="05-14x5 maple snare brushed"    gui="GUI/05-14x5maplebrush.xml" >   <AriaElement  path="Programs/05-14x5maplebrush.sfz"/> </AriaProgram>
+		
+	<AriaProgram  name="06-14x5 maple snare"     		gui="GUI/06-14x5maple.xml" >        <AriaElement  path="Programs/06-14x5maple.sfz"/>	  </AriaProgram>
+		
+	<AriaProgram  name="07-14x6.5 maple snare"     		gui="GUI/07-14x65maple.xml" >       <AriaElement  path="Programs/07-14x65maple.sfz"/>	  </AriaProgram>
+		
+	<AriaProgram  name="08-14x.6.5 maple snare muted"   gui="GUI/08-14x65maplemute.xml" >   <AriaElement  path="Programs/08-14x65maplemute.sfz"/> </AriaProgram>
+		
+	<AriaProgram  name="09-14x8 aluminum snare"     	gui="GUI/09-14x8al.xml" >           <AriaElement  path="Programs/09-14x8al.sfz"/>		  </AriaProgram>
+		
+	<AriaProgram  name="10-14x8 al snare rimshot"     	gui="GUI/10-14x8alrims.xml" >       <AriaElement  path="Programs/10-14x8alrims.sfz"/>     </AriaProgram>
+		
+	<AriaProgram  name="11-14x8 birch snare"     		gui="GUI/11-14x8birch.xml" >        <AriaElement  path="Programs/11-14x8birch.sfz"/>      </AriaProgram>
+		
+	<AriaProgram  name="12-18x16 prepared birch tom"    gui="GUI/12-18x16birchprep.xml" >   <AriaElement  path="Programs/12-18x16birchprep.sfz"/> </AriaProgram>
+		
+	<AriaProgram  name="13-20x6 poplar snare brushed"   gui="GUI/13-20x6poplarbrush.xml" >  <AriaElement  path="Programs/13-20x6poplarbrush.sfz"/></AriaProgram>
+		
+	<AriaProgram  name="14-20x6 poplar snare"     		gui="GUI/14-20x6poplar.xml" >       <AriaElement  path="Programs/14-20x6poplar.sfz"/>	  </AriaProgram>
+		
+	<AriaProgram  name="15-20x6 prepared poplar snare"  gui="GUI/15-20x6poplarprep.xml" >   <AriaElement  path="Programs/15-20x6poplarprep.sfz"/> </AriaProgram>
+		
+	<AriaProgram  name="16-80s sympathy snare"          gui="GUI/16-80ssymp.xml" >          <AriaElement  path="Programs/16-80ssymp.sfz"/>		  </AriaProgram>
+		
+	<AriaProgram  name="17-60s sympathy snare"     		gui="GUI/17-60ssymp.xml" >          <AriaElement  path="Programs/17-60ssymp.sfz"/>		  </AriaProgram>
+		
+	<AriaProgram  name="18-13x9 birch snare"     		gui="GUI/18-13x9birch.xml" >          
+	<AriaElement  path="Programs/18-13x9birch.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="19-13x9 birch snare rimshot"     		gui="GUI/19-13x9birchrims.xml" >          
+	<AriaElement  path="Programs/19-13x9birchrims.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="20-13x9 birch snare w tambourine"     		gui="GUI/20-13x9birchtamb.xml" >          
+	<AriaElement  path="Programs/20-13x9birchtamb.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="21-14x5 mystery wood snare"     		gui="GUI/21-14x5mystery.xml" >          
+	<AriaElement  path="Programs/21-14x5mystery.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="22-16x7 sapele snare"     		gui="GUI/22-16x7sapele.xml" >          
+	<AriaElement  path="Programs/22-16x7sapele.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="23-20x12 alder snare"     		gui="GUI/23-20x12alder.xml" >          
+	<AriaElement  path="Programs/23-20x12alder.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="24-20x12 alder tight spring"     		gui="GUI/24-20x12aldertight.xml" >          
+	<AriaElement  path="Programs/24-20x12aldertight.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="25-22x5 mahogany snare brushed"     		gui="GUI/25-22x5mahbrush.xml" >          
+	<AriaElement  path="Programs/25-22x5mahbrush.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="26-22x5 mahogany snare"     		gui="GUI/26-22x5mah.xml" >          
+	<AriaElement  path="Programs/26-22x5mah.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="27-22x5 prepared mahogany snare"     		gui="GUI/27-22x5mahprep.xml" >          
+	<AriaElement  path="Programs/27-22x5mahprep.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="28-22x14 prepared birch kick"     		gui="GUI/28-22x14birchprep.xml" >          
+	<AriaElement  path="Programs/28-22x14birchprep.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="29-ziggurat level 1"     		gui="GUI/29-zigguratlev1.xml" >          
+	<AriaElement  path="Programs/29-zigguratlev1.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="30-ziggurat level 2"     		gui="GUI/30-zigguratlev2.xml" >          
+	<AriaElement  path="Programs/30-zigguratlev2.sfz"/>		  </AriaProgram>
+
+	<AriaProgram  name="99-extras"                      gui="GUI/99-extras.xml" >           <AriaElement  path="Programs/99-extras.sfz"/>		  </AriaProgram>
+
+</AriaBank>

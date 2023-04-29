@@ -1,0 +1,161 @@
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc82=100
+offset=39
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_btm.sfz"
+
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc82=100
+offset=121
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_snom.sfz"
+
+
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc83=100
+amplitude_curvecc83=11
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_in.sfz"
+
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc83=100
+amplitude_curvecc83=12
+offset=36
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_out.sfz"
+
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc81=100
+offset=118
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_oh.sfz"
+
+<master> locc53=63
+locc80=16
+hicc80=16
+
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc81=100
+offset=106
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_clst.sfz"
+
+<master> locc53=63
+locc80=16
+hicc80=16
+#include "mappings/snarekey_more.sfz"
+tune_cc85=2400
+amplitude_cc81=100
+offset=490
+amplitude_cc86=100
+ampeg_hold_oncc89=-0.2
+ampeg_hold_curvecc89=18
+ampeg_decay_oncc89=-1.46
+ampeg_decay_curvecc89=18
+ampeg_sustain_oncc89=-100
+ampeg_sustain_curvecc89=17
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc87=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc88=-6000
+#include "mappings/symp_60s_room.sfz"

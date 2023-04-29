@@ -1,0 +1,17 @@
+<group>
+offset_random=15582
+
+<region>
+sample=../Samples/14d_brush/btm/stir_dl2_rr1.wav
+
+<region>
+sample=../Samples/14d_brush/btm/stir_dl2_rr2.wav
+seq_position=2
+
+<region>
+sample=../Samples/14d_brush/btm/stir_dl2_rr3.wav
+seq_position=3
+
+<region>
+sample=../Samples/14d_brush/btm/stir_dl2_rr3.wav
+seq_position=4

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<AriaSave version="1951" productID="1014">
+    <Slot id="0" name="01-Frankensnare" bankId="2522" version="2000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="75" value="0.515999972820282" />
+        <Param id="80" value="0.06310000270605087" />
+        <Param id="85" value="0.5560629963874817" />
+        <Param id="90" value="0.1339000016450882" />
+        <Param id="93" value="0.4720000028610229" />
+        <Param id="95" value="0.536063015460968" />
+        <Param id="100" value="0.1653999984264374" />
+    </Slot>
+</AriaSave>

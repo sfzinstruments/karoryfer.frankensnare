@@ -1,0 +1,59 @@
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc75=100
+locc75=1
+tune_cc79=2400
+locc54=63
+#include "mappings/claps_person1.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc75=100
+amplitude_curvecc75=12
+locc75=64
+tune_cc79=2400
+transpose=-12
+width=-100
+fil_type=hpf_2p
+cutoff=200
+locc54=63
+#include "mappings/claps_person1.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc76=100
+locc76=1
+tune_cc79=2400
+locc54=63
+#include "mappings/claps_person2.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc76=100
+locc76=64
+amplitude_curvecc76=12
+tune_cc79=2400
+locc54=63
+#include "mappings/claps_person3.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc77=100
+locc77=1
+tune_cc79=2400
+locc54=63
+#include "mappings/claps_stack.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc77=100
+amplitude_curvecc77=12
+locc77=64
+tune_cc79=2400
+transpose=-12
+width=-100
+fil_type=hpf_2p
+cutoff=200
+locc54=63
+#include "mappings/claps_stack.sfz"
+

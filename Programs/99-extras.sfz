@@ -1,0 +1,118 @@
+<control>
+label_cc7=Volume
+label_cc10=Pan
+label_cc71=Acoustic Chik
+label_cc72=Electric Chik
+label_cc74=Chik Tune
+label_cc75=Clap One
+label_cc76=Clap Two
+label_cc77=Clap One Low
+label_cc78=Clap Three
+label_cc79=Clap Tune
+label_cc80=Clap Stack
+label_cc81=Clap Stack Low
+label_cc82=Tambourine
+label_cc83=Tambourine Tune
+
+set_cc7=100
+set_cc10=63
+set_cc74=63
+set_cc75=100
+set_cc79=63
+set_cc83=63
+
+<global>
+amplitude_cc7=100
+pan=-100
+pan_cc10=200
+loop_mode=one_shot
+seq_length=4
+pitch_keytrack=0
+tune=-1200
+bend_down=1200
+bend_up=1200
+
+//Guitar chiks
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc71=100
+locc71=1
+tune_cc74=2400
+
+#include "mappings/chiks_ac.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc72=100
+locc72=1
+tune_cc74=2400
+
+#include "mappings/chiks_el.sfz"
+
+//Tambourine
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc82=100
+locc82=1
+tune_cc83=2400
+
+#include "mappings/tamb.sfz"
+
+//Claps
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc75=100
+locc75=1
+tune_cc79=2400
+
+#include "mappings/claps_person1.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc76=100
+locc76=1
+tune_cc79=2400
+
+#include "mappings/claps_person2.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc78=100
+locc78=1
+tune_cc79=2400
+
+#include "mappings/claps_person3.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc77=100
+locc77=1
+tune_cc79=2400
+transpose=-12
+width=-100
+fil_type=hpf_2p
+cutoff=200
+
+#include "mappings/claps_person1.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc80=100
+locc80=1
+tune_cc79=2400
+
+#include "mappings/claps_stack.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc81=100
+locc81=1
+tune_cc79=2400
+transpose=-12
+width=-100
+fil_type=hpf_2p
+cutoff=200
+
+#include "mappings/claps_stack.sfz"

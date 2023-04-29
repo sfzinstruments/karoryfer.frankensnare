@@ -1,0 +1,29 @@
+<master>
+#include "mappings/snarekey_more.sfz"
+locc71=1
+hicc71=1
+amplitude_cc72=100
+locc72=1
+tune_cc74=2400
+locc54=63
+#include "mappings/chiks_ac.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+locc71=2
+hicc71=2
+amplitude_cc72=100
+locc72=1
+tune_cc74=2400
+locc54=63
+#include "mappings/chiks_el.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+locc71=4
+hicc71=4
+amplitude_cc72=100
+locc72=1
+tune_cc74=2400
+locc54=63
+#include "mappings/tamb.sfz"

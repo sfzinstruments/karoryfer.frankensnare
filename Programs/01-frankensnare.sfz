@@ -1,0 +1,251 @@
+<control>
+label_cc7=Volume
+label_cc10=Pan
+label_cc51=Main On/Off
+label_cc52=Second On/Off
+label_cc53=Third On/Off
+label_cc54=Extras On/Off
+label_cc71=Acoustic Chik
+label_cc72=Electric Chik
+label_cc74=Chik Tune
+label_cc75=Clap Main
+label_cc76=Clap Extra
+label_cc77=Clap Stack
+label_cc79=Clap Tune
+label_cc80=3 Select
+label_cc81=3 Whoosh
+label_cc82=3 Crack
+label_cc83=3 Thump
+label_cc85=3 Tune
+label_cc86=3 Vol
+label_cc87=3 HP
+label_cc88=3 LP
+label_cc89=3 Tighten
+label_cc90=2 Select
+//Staying away from CC 91 so Sforzando's reverb send can be automated
+label_cc92=2 Crack
+label_cc93=2 Thump
+label_cc94=2 Whoosh
+label_cc95=2 Tune
+label_cc96=2 Vol
+label_cc97=2 HP
+label_cc98=2 LP
+label_cc99=2 Tighten
+label_cc100=Main Select
+label_cc101=Main Whoosh
+label_cc102=Main Crack
+label_cc103=Main Thump
+label_cc105=Main Tune
+label_cc107=Main Fi
+label_cc109=Main Tighten
+
+label_cc400=Limiter Thresh
+label_cc401=Limiter Level
+
+set_cc7=100
+set_cc10=63
+set_cc51=127
+set_cc52=127
+set_cc53=127
+set_cc54=0
+set_cc71=0
+set_cc72=63
+set_cc74=63
+set_cc75=63
+set_cc79=63
+set_cc80=13
+set_cc81=50
+set_cc82=100
+set_cc85=63
+set_cc86=100
+set_cc88=127
+set_cc90=2
+set_cc92=100
+set_cc94=50
+set_cc95=63
+set_cc96=100
+set_cc98=127
+set_cc100=8
+set_cc101=45
+set_cc102=63
+set_cc103=10
+set_cc105=63
+set_cc107=63
+
+set_cc400=63
+set_cc401=63
+
+<global>
+amplitude_cc7=100
+pan=-100
+pan_cc10=200
+loop_mode=one_shot
+seq_length=4
+pitch_keytrack=0
+tune=-1200
+off_mode=normal
+ampeg_hold=0.2
+ampeg_decay=1.5
+cutoff2_curvecc98=2
+cutoff2_curvecc88=2
+bend_down=1200
+bend_up=1200
+
+//Main layer sidesticks
+#include "subsets/10_ss_main.sfz"
+#include "subsets/12_ss_main.sfz"
+#include "subsets/14d_ss_main.sfz"
+#include "subsets/14p_ss_main.sfz"
+#include "subsets/14a_ss_main.sfz"
+#include "subsets/14s_ss_main.sfz"
+#include "subsets/20_ss_main.sfz"
+#include "subsets/20_prep_ss_main.sfz"
+#include "subsets/20_ss_main_more.sfz"
+#include "subsets/13b_ss_main.sfz"
+#include "subsets/14t_ss_main.sfz"
+#include "subsets/16_ss_main.sfz"
+#include "subsets/20m_ss_main.sfz"
+#include "subsets/22_ss_main.sfz"
+#include "subsets/22_spring_ss_main.sfz"
+#include "subsets/22_ss_main_more.sfz"
+
+//Main layer regular hits
+#include "subsets/10_brush_main.sfz"
+#include "subsets/10_basic_main.sfz"
+#include "subsets/12_basic_main.sfz"
+#include "subsets/14d_brush_main.sfz"
+#include "subsets/14d_basic_main.sfz"
+#include "subsets/14p_basic_main.sfz"
+#include "subsets/14p_muted_main.sfz"
+#include "subsets/14a_basic_main.sfz"
+#include "subsets/14a_rims_main.sfz"
+#include "subsets/14s_basic_main.sfz"
+#include "subsets/18_prep_main.sfz"
+#include "subsets/20_brush_main.sfz"
+#include "subsets/20_basic_main.sfz"
+#include "subsets/20_prep_main.sfz"
+#include "subsets/80s_symp_main.sfz"
+#include "subsets/60s_symp_main.sfz"
+#include "subsets/13b_basic_main.sfz"
+#include "subsets/13b_rimshot_main.sfz"
+#include "subsets/13b_tamb_main.sfz"
+#include "subsets/14t_basic_main.sfz"
+#include "subsets/16_basic_main.sfz"
+#include "subsets/20m_basic_main.sfz"
+#include "subsets/20m_tight_main.sfz"
+#include "subsets/22_brush_main.sfz"
+#include "subsets/22_basic_main.sfz"
+#include "subsets/22_spring_main.sfz"
+#include "subsets/22_prep_main.sfz"
+#include "subsets/ziggurat_lev1_main.sfz"
+#include "subsets/ziggurat_lev2_main.sfz"
+
+//Second layer regular hits
+#include "subsets/10_brush_second.sfz"
+#include "subsets/10_basic_second.sfz"
+#include "subsets/12_basic_second.sfz"
+#include "subsets/14d_brush_second.sfz"
+#include "subsets/14d_basic_second.sfz"
+#include "subsets/14p_basic_second.sfz"
+#include "subsets/14p_muted_second.sfz"
+#include "subsets/14a_basic_second.sfz"
+#include "subsets/14a_rims_second.sfz"
+#include "subsets/14s_basic_second.sfz"
+#include "subsets/18_prep_second.sfz"
+#include "subsets/20_brush_second.sfz"
+#include "subsets/20_basic_second.sfz"
+#include "subsets/20_prep_second.sfz"
+#include "subsets/80s_symp_second.sfz"
+#include "subsets/60s_symp_second.sfz"
+#include "subsets/13b_basic_second.sfz"
+#include "subsets/13b_rimshot_second.sfz"
+#include "subsets/13b_tamb_second.sfz"
+#include "subsets/14t_basic_second.sfz"
+#include "subsets/16_basic_second.sfz"
+#include "subsets/20m_basic_second.sfz"
+#include "subsets/20m_tight_second.sfz"
+#include "subsets/22_brush_second.sfz"
+#include "subsets/22_basic_second.sfz"
+#include "subsets/22_spring_second.sfz"
+#include "subsets/22_prep_second.sfz"
+#include "subsets/ziggurat_lev1_second.sfz"
+#include "subsets/ziggurat_lev2_second.sfz"
+
+//Third layer regular hits
+#include "subsets/10_brush_third.sfz"
+#include "subsets/10_basic_third.sfz"
+#include "subsets/12_basic_third.sfz"
+#include "subsets/14d_brush_third.sfz"
+#include "subsets/14d_basic_third.sfz"
+#include "subsets/14p_basic_third.sfz"
+#include "subsets/14p_muted_third.sfz"
+#include "subsets/14a_basic_third.sfz"
+#include "subsets/14a_rims_third.sfz"
+#include "subsets/14s_basic_third.sfz"
+#include "subsets/18_prep_third.sfz"
+#include "subsets/20_brush_third.sfz"
+#include "subsets/20_basic_third.sfz"
+#include "subsets/20_prep_third.sfz"
+#include "subsets/80s_symp_third.sfz"
+#include "subsets/60s_symp_third.sfz"
+#include "subsets/13b_basic_third.sfz"
+#include "subsets/13b_rimshot_third.sfz"
+#include "subsets/13b_tamb_third.sfz"
+#include "subsets/14t_basic_third.sfz"
+#include "subsets/16_basic_third.sfz"
+#include "subsets/20m_basic_third.sfz"
+#include "subsets/20m_tight_third.sfz"
+#include "subsets/22_brush_third.sfz"
+#include "subsets/22_basic_third.sfz"
+#include "subsets/22_spring_third.sfz"
+#include "subsets/22_prep_third.sfz"
+#include "subsets/ziggurat_lev1_third.sfz"
+#include "subsets/ziggurat_lev2_third.sfz"
+
+//Extras
+#include "subsets/chiks_xtra.sfz"
+#include "subsets/claps_xtra.sfz"
+
+<effect>
+param_offset=400
+type=com.mda.Limiter
+
+//Mic, delay and offset curves
+
+<curve>curve_index=11
+v000=0
+v064=1
+v127=1
+
+<curve>curve_index=12
+v000=0
+v064=0
+v127=1
+
+<curve>curve_index=13
+v000=0
+v064=0
+v096=1
+v127=1
+
+<curve>curve_index=14
+v000=0
+v096=0
+v127=1
+
+<curve>curve_index=15
+v000=1
+v063=0
+v127=0
+
+//Mute control curves
+
+<curve>curve_index=17
+v000=0
+v095=1
+v127=1
+
+<curve>curve_index=18
+v000=0
+v095=0.5
+v127=1

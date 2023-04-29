@@ -1,0 +1,15 @@
+<group>
+
+
+seq_length=3
+
+<region>
+sample=../Samples/xtra_claps/clap_person3_rr1.flac
+
+<region>
+sample=../Samples/xtra_claps/clap_person3_rr2.flac
+seq_position=2
+
+<region>
+sample=../Samples/xtra_claps/clap_person3_rr3.flac
+seq_position=3

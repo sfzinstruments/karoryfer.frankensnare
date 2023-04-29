@@ -1,0 +1,220 @@
+<control>
+label_cc101=Oh vol
+label_cc102=Btm vol
+label_cc103=In vol
+label_cc105=Tuning
+label_cc107=Fi
+label_cc109=Tighten
+label_cc110=Kick vol
+label_cc111=Snom vol
+label_cc112=Cluster vol
+label_cc113=Room vol
+label_cc114=Oh lo vol
+label_cc115=Bot lo vol
+label_cc116=Snom lo vol
+label_cc117=Cluster lo vol
+label_cc118=Bot hi vol
+label_cc119=Snom hi vol
+label_cc120=Cluster hi vol
+
+set_cc101=30
+set_cc102=100
+set_cc103=60
+set_cc111=70
+set_cc112=80
+set_cc105=63
+set_cc107=63
+
+<global>
+loop_mode=one_shot
+seq_length=4
+pitch_keytrack=0
+tune=-1200
+tune_cc105=2400
+off_mode=normal
+ampeg_hold=0.2
+ampeg_decay=1.5
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+bend_down=1200
+bend_up=1200
+
+
+//Untransposed mics
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc101=100
+locc101=1
+delay_cc107=0.01
+delay_curvecc107=15
+offset_cc107=118
+offset_curvecc107=11
+#include "mappings/symp_60s_oh.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc102=100
+locc102=1
+delay_cc107=0.008
+delay_curvecc107=15
+offset_cc107=39
+offset_curvecc107=11
+#include "mappings/symp_60s_btm.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc103=100
+locc103=1
+#include "mappings/symp_60s_in.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc110=100
+locc110=1
+delay_cc107=0.003
+delay_curvecc107=15
+offset_cc107=36
+offset_curvecc107=11
+#include "mappings/symp_60s_out.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc111=100
+locc111=1
+delay_cc107=0.012
+delay_curvecc107=15
+offset_cc107=121
+offset_curvecc107=11
+#include "mappings/symp_60s_snom.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc112=100
+locc112=1
+delay_cc107=0.011
+delay_curvecc107=15
+offset_cc107=106
+offset_curvecc107=11
+#include "mappings/symp_60s_clst.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+amplitude_cc113=100
+locc113=1
+delay_cc107=0.0241
+delay_curvecc107=15
+offset_cc107=490
+offset_curvecc107=11
+#include "mappings/symp_60s_room.sfz"
+
+//Mics transposed octave down
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=-12
+width=-100
+amplitude_cc114=100
+locc114=1
+fil_type=hpf_1p
+cutoff=150
+delay_cc107=0.02
+delay_curvecc107=15
+offset_cc107=118
+offset_curvecc107=11
+#include "mappings/symp_60s_oh.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=-12
+amplitude_cc115=100
+locc115=1
+fil_type=hpf_2p
+cutoff=150
+delay_cc107=0.016
+delay_curvecc107=15
+offset_cc107=39
+offset_curvecc107=11
+#include "mappings/symp_60s_btm.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=-12
+amplitude_cc116=100
+locc116=1
+fil_type=hpf_2p
+cutoff=150
+delay_cc107=0.024
+delay_curvecc107=15
+offset_cc107=121
+offset_curvecc107=11
+#include "mappings/symp_60s_snom.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=-12
+width=-100
+amplitude_cc117=100
+locc117=1
+fil_type=hpf_1p
+cutoff=150
+delay_cc107=0.022
+delay_curvecc107=15
+offset_cc107=106
+offset_curvecc107=11
+#include "mappings/symp_60s_clst.sfz"
+
+//Mics transposed octave up
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=12
+amplitude_cc118=100
+locc118=1
+offset_cc107=39
+#include "mappings/symp_60s_btm.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=12
+amplitude_cc119=100
+locc119=1
+offset_cc107=121
+#include "mappings/symp_60s_snom.sfz"
+
+<master>
+#include "mappings/snarekey_more.sfz"
+transpose=12
+amplitude_cc120=100
+locc120=1
+offset_cc107=106
+#include "mappings/symp_60s_clst.sfz"
+
+
+//Delay and offset curves
+
+<curve>curve_index=11
+v000=0
+v064=1
+v127=1
+
+<curve>curve_index=15
+v000=1
+v063=0
+v127=0
+
+//Mute control curves
+
+<curve>curve_index=17
+v000=0
+v095=1
+v127=1
+
+<curve>curve_index=18
+v000=0
+v095=0.5
+v127=1

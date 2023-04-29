@@ -1,0 +1,122 @@
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+amplitude_cc102=100
+locc102=1
+ampeg_hold=0.22
+amplitude_curvecc102=11
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_btm.sfz"
+
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+transpose=12
+amplitude_cc102=100
+amplitude_curvecc102=12
+locc102=64
+ampeg_hold=0.22
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_btm.sfz"
+
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+amplitude_cc103=100
+locc103=1
+ampeg_hold=0.22
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_top.sfz"
+
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+amplitude_cc101=100
+locc101=1
+ampeg_hold=0.22
+amplitude_curvecc101=11
+delay_cc107=0.01
+delay_curvecc107=15
+offset_cc107=98
+offset_curvecc107=11
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_oh.sfz"
+
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+transpose=-12
+width=-100
+amplitude_cc101=100
+amplitude_curvecc101=13
+ampeg_hold=0.22
+delay_cc107=0.014
+delay_curvecc107=15
+offset_cc107=98
+offset_curvecc107=11
+locc101=64
+fil_type=hpf_2p
+cutoff=200
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_oh.sfz"
+
+<master>
+locc100=19
+hicc100=19
+#include "mappings/snarekey_more.sfz"
+tune_cc105=2400
+transpose=-12
+amplitude_cc101=100
+amplitude_curvecc101=14
+ampeg_hold=0.22
+locc101=96
+fil_type=hpf_1p
+cutoff=250
+ampeg_hold_oncc109=-0.2
+ampeg_hold_curvecc109=18
+ampeg_decay_oncc109=-1.46
+ampeg_decay_curvecc109=18
+ampeg_sustain_oncc109=-100
+ampeg_sustain_curvecc109=17
+locc51=63
+#include "mappings/13b_tamb_btm.sfz"

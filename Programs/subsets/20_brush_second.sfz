@@ -1,0 +1,75 @@
+<master>
+locc90=12
+hicc90=12
+#include "mappings/snarekey_more.sfz"
+tune_cc95=2400
+amplitude_cc92=100
+locc92=1
+ampeg_hold=0.22
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc97=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc98=-6000
+seq_length=3
+amplitude_cc96=100
+ampeg_hold_oncc99=-0.2
+ampeg_hold_curvecc99=18
+ampeg_decay_oncc99=-1.46
+ampeg_decay_curvecc99=18
+ampeg_sustain_oncc99=-100
+ampeg_sustain_curvecc99=17
+locc52=63
+#include "mappings/20_brush_btm.sfz"
+
+<master>
+locc90=12
+hicc90=12
+#include "mappings/snarekey_more.sfz"
+tune_cc95=2400
+amplitude_cc93=100
+locc93=1
+ampeg_hold=0.22
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc97=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc98=-6000
+seq_length=3
+amplitude_cc96=100
+ampeg_hold_oncc99=-0.2
+ampeg_hold_curvecc99=18
+ampeg_decay_oncc99=-1.46
+ampeg_decay_curvecc99=18
+ampeg_sustain_oncc99=-100
+ampeg_sustain_curvecc99=17
+locc52=63
+#include "mappings/20_brush_top.sfz"
+
+<master>
+locc90=12
+hicc90=12
+#include "mappings/snarekey_more.sfz"
+tune_cc95=2400
+amplitude_cc94=100
+locc94=1
+ampeg_hold=0.22
+offset=114
+fil_type=hpf_2p
+cutoff=30
+cutoff_cc97=7000
+fil2_type=lpf_1p
+cutoff2=22050
+cutoff2_cc98=-6000
+seq_length=3
+amplitude_cc96=100
+ampeg_hold_oncc99=-0.2
+ampeg_hold_curvecc99=18
+ampeg_decay_oncc99=-1.46
+ampeg_decay_curvecc99=18
+ampeg_sustain_oncc99=-100
+ampeg_sustain_curvecc99=17
+locc52=63
+#include "mappings/20_brush_oh.sfz"
